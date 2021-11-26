@@ -4,10 +4,10 @@ import Colours from "../static/Colours";
 
 import { StyleSheet, Text, View, Image } from "react-native";
 
-export default function SurfMap() {
+export default function LiveMap() {
   return (
     <View styles={styles.container}>
-      <Image source={require("../assets/map.jpg")} style={styles.image} />
+      <Image source={require("../assets/liveMap.jpg")} style={styles.image} />
       <View style={styles.box}>
         <Text style={styles.location}>Bournemouth</Text>
       </View>

@@ -1,14 +1,11 @@
-import React from 'react';
+import React from "react";
 
-import { StyleSheet } from 'react-native';
+import { StyleSheet } from "react-native";
 
-import BottomNav from './app/navigation/BottomNav';
-
+import SurfStackNav from "./app/navigation/SurfStackNav";
 
 export default function App() {
-  return (
-    <BottomNav/>
-  );
+  return <SurfStackNav />;
 }
 
 const styles = StyleSheet.create({});

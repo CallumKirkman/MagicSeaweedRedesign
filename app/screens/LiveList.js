@@ -73,7 +73,7 @@ const Item = ({ item, onPress, backgroundColor, textColor }) => (
   </TouchableOpacity>
 );
 
-export default function LiveList({ navigation }) {
+export default function SurfList({ navigation }) {
   const [selectedValue, setSelectedValue] = useState("Nearby");
 
   if (selectedValue == "Nearby") {
